@@ -98,7 +98,7 @@ export default function AboutSection() {
                 <CardContent className="pt-6 text-center">
                   <FileText className="w-10 h-10 mx-auto mb-4 text-primary" />
                   <h4 className="font-bold">Projets</h4>
-                  <p className="text-muted-foreground">10+ achevés</p>
+                  <p className="text-muted-foreground">5+ projets</p>
                 </CardContent>
               </Card>
 
@@ -120,7 +120,11 @@ export default function AboutSection() {
               className="flex gap-4"
             >
               <Button asChild>
-                <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="/farrelbaty_CV_2.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Télécharger CV
                 </a>
               </Button>
